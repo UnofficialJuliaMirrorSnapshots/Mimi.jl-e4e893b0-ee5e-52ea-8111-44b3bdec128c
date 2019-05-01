@@ -1,7 +1,5 @@
 [![Build Status](https://travis-ci.org/mimiframework/Mimi.jl.svg?branch=master)](https://travis-ci.org/mimiframework/Mimi.jl)
 [![Build status](https://ci.appveyor.com/api/projects/status/f915ntkc0etgvim9/branch/master?svg=true)](https://ci.appveyor.com/project/mimiframework/mimi-jl/branch/master)
-[![Mimi](http://pkg.julialang.org/badges/Mimi_0.5.svg)](http://pkg.julialang.org/?pkg=Mimi)
-[![Coverage Status](https://coveralls.io/repos/github/mimiframework/Mimi.jl/badge.svg?branch=master)](https://coveralls.io/github/mimiframework/Mimi.jl?branch=master)
 [![codecov](https://codecov.io/gh/mimiframework/Mimi.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/mimiframework/Mimi.jl)
 
 [![Stable documentation](https://img.shields.io/badge/docs-stable-blue.svg)](https://www.mimiframework.org/Mimi.jl/stable)
@@ -48,13 +46,13 @@ pkg> add MimiRICE2010
 ```
 ## Models using Mimi
 
-* [MimiFUND.jl](https://github.com/fund-model/MimiFUND.jl) (currently in beta)
+* [MimiFUND.jl](https://github.com/fund-model/MimiFUND.jl)
 * [MimiDICE2010.jl](https://github.com/anthofflab/MimiDICE2010.jl) (currently in closed beta)
 * [MimiDICE2013.jl](https://github.com/anthofflab/MimiDICE2013.jl) (currently in closed beta)
 * [MimiRICE2010.jl](https://github.com/anthofflab/MimiRICE2010.jl)
 * [Mimi-SNEASY.jl](https://github.com/anthofflab/mimi-sneasy.jl) (currently in closed beta)
 * [Mimi-FAIR.jl](https://github.com/anthofflab/mimi-fair.jl) (currently in closed beta)
-* [MimiPAGE2009.jl](https://github.com/anthofflab/MimiPAGE2009.jl) (currently in closed beta)
+* [MimiPAGE2009.jl](https://github.com/anthofflab/MimiPAGE2009.jl)
 * [Mimi-MAGICC.jl](https://github.com/anthofflab/mimi-magicc.jl) (CH4 parts currently in closed beta)
 * [Mimi-HECTOR.jl](https://github.com/anthofflab/mimi-hector.jl) (CH4 parts currently in closed beta)
 * [Mimi-CIAM.jl](https://github.com/anthofflab/mimi-ciam.jl) (currently in closed beta)

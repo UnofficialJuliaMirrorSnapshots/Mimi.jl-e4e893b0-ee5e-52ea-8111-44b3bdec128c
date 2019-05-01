@@ -95,6 +95,8 @@ Save the stored simulation results to files in the directory `output_dir`
 function save_trial_results(sim::Simulation{T}, output_dir::AbstractString) where T <: AbstractSimulationData
     multiple_results = (length(sim.results) > 1)
 
+    mkpath(output_dir, mode=0o750)
+    
     for (i, results) in enumerate(sim.results)
         if multiple_results
             sub_dir = joinpath(output_dir, "model_$i")
@@ -112,7 +114,7 @@ function save_trial_results(sim::Simulation{T}, output_dir::AbstractString) wher
 end
 
 function save_trial_inputs(sim::Simulation, filename::String)
-    mkpath(dirname(filename), mode=0o770)   # ensure that the specified path exists
+    mkpath(dirname(filename), mode=0o750)   # ensure that the specified path exists
     save(filename, sim)
     return nothing
 end
